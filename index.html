@@ -15,42 +15,51 @@
 <body>
 
 <!-- header -->
-<header>
-    <div class="header">
-        <a href="index.html">
-            <img src="images/fedelogo.png" alt="Logo de fede" id="logo">
-        </a>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="pages/quiensoy.html">BIO</a></li>
-                <li><a href="pages/musica.html">MÚSICA</a></li>
-                <li><a href="pages/quince.html">15000 KM</a></li>
-                <li><a href="pages/contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+<nav class="navbar bg-body-tertiary navbar-expand-md">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#"> <a href="index.html">
+        <img src="images/fedelogo.png" alt="Logo de fede" id="logo">
+    </a></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Fede Farrell</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="pages/quiensoy.html">BIO</a></li>
+                    <li><a href="pages/musica.html">MÚSICA</a></li>
+                    <li><a href="pages/quince.html">15000 KM</a></li>
+                    <li><a href="pages/contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
     </div>
+</nav>
 <h1 class="h1-index">Un Viaje a la Raiz</h1>
-</header>
-
 
 <!-- main -->
 <main>
 
 <section class="video-container">
-        <video controls class="videointro">
-            <source src="video/VideoIntro.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-        </video>
+    <video autoplay muted loop controls class="videointro">
+        <source src="video/VideoIntro.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
 </section>
-
 
 
 <section class="index-text">
     <a href="https://open.spotify.com/artist/2iahZhIrvNI5Gb2T268a4U?si=FzD00lg3SwKFZM4t7IQnqA" target="_blank">
-      <p class="index-texto">"Un viaje épico encuentra su voz a través de la música, y he creado piezas para encontrarnos, disponible en todas las plataformas de streaming, para enriquecer cada momento de la travesía de la vida."</p>
+    <p class="index-texto">"Un viaje épico encuentra su voz a través de la música, y he creado piezas para encontrarnos, disponible en todas las plataformas de streaming, para enriquecer cada momento de la travesía de la vida."</p>
     </a>
-  </section>
+</section>
 
 
 <p class="seguirviaje">Viaja conmigo a través de mis redes sociales</p>
@@ -63,13 +72,13 @@
 
 <footer>
     
+
     <div class="button-container">
-        <a href="https://www.instagram.com/fedefarrell/" target="_blank" class="social-media-button">Instagram</a>
-        <a href="https://www.facebook.com/FedeFarrellOficial" target="_blank" class="social-media-button">Facebook</a>
-        <a href="https://twitter.com/FedeFarrell" target="_blank" class="social-media-button">Twitter</a>
-        <a href="https://www.youtube.com/@fedefarrell" target="_blank" class="social-media-button">Youtube</a>
+        <a href="https://www.instagram.com/fedefarrell/" target="_blank" class="btn btn-success">Instagram</a>
+        <a href="https://www.facebook.com/FedeFarrellOficial" target="_blank" class="btn btn-success">Facebook</a>
+        <a href="https://twitter.com/FedeFarrell" target="_blank" class="btn btn-success">Twitter</a>
+        <a href="https://www.youtube.com/@fedefarrell" target="_blank" class="btn btn-success">Youtube</a>
     </div>
-    
     
 
 </footer>
