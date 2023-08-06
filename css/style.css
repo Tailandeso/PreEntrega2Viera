@@ -101,13 +101,17 @@
 
 }
 
-
 .quiensoy-p{
   text-align: center;
   color: #E7DFD4;
   padding: 30px;
   font-size: x-large;
   padding:5% 10%; 
+}
+@media screen and (max-width: 747px) {
+  .quiensoy-p {
+    font-size: medium;
+  }
 }
 
 .gallery {
@@ -128,8 +132,6 @@
   transform: scale(1.1);
 }
 
-
-
 .quince-p{
   text-align: center;
   color: #E7DFD4;
@@ -137,6 +139,11 @@
   font-size: x-large;
   padding:2% 7%; 
   text-align: center;
+}
+@media screen and (max-width: 747px) {
+  .quince-p {
+    font-size: medium;
+  }
 }
 
 .quince-videos{
@@ -178,8 +185,6 @@
   }
 }
 
-
-
 .video-container {
   position: relative;
   width: 100%;
@@ -216,6 +221,11 @@ color: rgb(215, 231, 152);
 opacity: 100%;
 }
 
+@media screen and (max-width: 747px) {
+  .index-texto {
+    font-size: x-large;
+  }
+}
 
 a {
     text-decoration: none;
@@ -228,9 +238,6 @@ padding-left: 60px;
 }
 
 .contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -277,7 +284,7 @@ padding-left: 60px;
 
 ::placeholder{
   color: white;
-  opacity: 50%;
+  opacity: 35%;
 }
 
 .seguirviaje {
@@ -287,6 +294,11 @@ padding-left: 60px;
   justify-content: flex-end;
   padding: 10px 5px;
   margin-bottom: 0;
+}
+@media screen and (max-width: 747px) {
+  .seguirviaje {
+    font-size: medium;
+  }
 }
 
 /* footer */
@@ -317,7 +329,7 @@ padding-left: 60px;
   color: #043911;
 }
 
-@media (max-width: 420px){
+@media (max-width: 767px){
   .button-container{ 
     display: grid;
     position: relative;
