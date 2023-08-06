@@ -329,7 +329,7 @@ padding-left: 60px;
   color: #043911;
 }
 
-@media (max-width: 767px){
+@media (max-width: 420px){
   .button-container{ 
     display: grid;
     position: relative;
@@ -337,6 +337,7 @@ padding-left: 60px;
     justify-content: center;
   }
 }
+
 
 
 
