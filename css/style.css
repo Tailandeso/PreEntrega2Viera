@@ -111,25 +111,22 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 2fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-}
-
-.container-img {
-  display: flex;
-  justify-content: center;
-}
-
-.box-img {
-  width: 100%;
-  max-width: 300px; /* Puedes ajustar el tamaño de la imagen aquí */
-  overflow: hidden;
+  box-shadow: linear-gradient(to right, #22c1c3, #fdbb2d);
+  ;
 }
 
 .quien-galeria-fotos {
   width: 100%;
-  height: auto;
+  height: 100%;
+  transition: 4s;
+  transition: transform 0.3s ease-in-out;
 }
+.quien-galeria-fotos:hover{
+  transform: scale(1.1);
+}
+
 
 
 .quince-p{
