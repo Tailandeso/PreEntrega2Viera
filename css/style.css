@@ -101,6 +101,7 @@
 
 }
 
+
 .quiensoy-p{
   text-align: center;
   color: #E7DFD4;
@@ -166,6 +167,15 @@
   display: flex;
   justify-content: space-around;
   gap: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media (max-width: 767px){
+  .spotify-iframes{
+    flex-direction: column;
+    text-align: justify;
+    justify-content: left;
+  }
 }
 
 
@@ -198,7 +208,6 @@
     font-size: xx-large;
     color: #E7DFD4;
     transition: 1s;
-
 }
 
 .index-texto:hover{
@@ -206,14 +215,15 @@ color: rgb(215, 231, 152);
 opacity: 100%;
 }
 
+
 a {
     text-decoration: none;
-    }
-  
+}
+
 .quiensoy-fotitos {
-        max-width: 300px;
-        justify-content: center;
-        padding-left: 60px;
+max-width: 300px;
+justify-content: center;
+padding-left: 60px;
 }
 
 .contact-form {
@@ -223,6 +233,7 @@ a {
   max-width: 400px;
   margin: 0 auto;
 }
+
 
 .form-group {
   margin-bottom: 20px;
@@ -240,7 +251,7 @@ a {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(69, 81, 34, 0.514);
 }
 
 .form-group textarea {
@@ -249,17 +260,23 @@ a {
 }
 
 .form-group input[type="submit"] {
-  background-color: #ffffff;
+  background-color: rgba(69, 81, 34, 0.514);
   color: #fff;
   cursor: pointer;
 }
 
 .form-group input[type="submit"]:hover {
-  background-color: #555;
+  background-color: rgb(215, 231, 152);
+  color: #043911; ;
 }
 
 .form-text{
-  color: #fff;
+  color:rgb(255, 255, 255);
+}
+
+::placeholder{
+  color: white;
+  opacity: 50%;
 }
 
 .seguirviaje {
@@ -290,18 +307,23 @@ a {
 }
 
 .btn-success {
-  background-color: rgba(247, 223, 104, 0.033);
+  background-color: rgba(69, 81, 34, 0.514);
 }
 
 .btn:hover {
   opacity: 0.8;
   background-color: rgb(215, 231, 152);
-}
-.btn btn-success:hover{
-  color: antiquewhite;
+  color: #043911;
 }
 
-
+@media (max-width: 420px){
+  .button-container{ 
+    display: grid;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 
 
